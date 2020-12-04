@@ -1,0 +1,25 @@
+LudwigLove@DESKTOP-MSI MINGW64 ~/Desktop/examen-ALVAREZ-GONZALEZ/entornos1T (ALVAREZ-GONZALEZ)
+$ git status
+On branch ALVAREZ-GONZALEZ
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        respuestas/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+LudwigLove@DESKTOP-MSI MINGW64 ~/Desktop/examen-ALVAREZ-GONZALEZ/entornos1T (ALVAREZ-GONZALEZ)
+$ git log
+commit b79c7ba1a5c71fc30ef8de370fdd12c40e316a8a (HEAD -> ALVAREZ-GONZALEZ, origin/main, origin/HEAD, main)
+Author: Carlos González Sánchez <carlosgs.iesquevedo@gmail.com>
+Date:   Fri Dec 4 11:11:30 2020 +0100
+
+    Update .gitignore
+
+    Ignorar ficheros de IntelliJ y MacOS
+
+commit 7b39baf748c6a994c95cdb9df0eba4b586319a14
+Author: Carlos González Sánchez <carlosgs.iesquevedo@gmail.com>
+Date:   Fri Dec 4 11:03:21 2020 +0100
+
+    Initial commit

@@ -1,0 +1,49 @@
+LudwigLove@DESKTOP-MSI MINGW64 ~/Desktop/examen-ALVAREZ-GONZALEZ/entornos1T ((04a011e...))
+$ git tag -a ALVAREZ-GONZALEZ-paso5 -m "Tag en commit ejercicio 1.4"
+
+LudwigLove@DESKTOP-MSI MINGW64 ~/Desktop/examen-ALVAREZ-GONZALEZ/entornos1T ((ALVAREZ-GONZALEZ-paso5))
+$ git tag
+ALVAREZ-GONZALEZ-paso5
+
+LudwigLove@DESKTOP-MSI MINGW64 ~/Desktop/examen-ALVAREZ-GONZALEZ/entornos1T ((ALVAREZ-GONZALEZ-paso5))
+$ git checkout main
+Deletion of directory 'respuestas' failed. Should I try again? (y/n) y
+Deletion of directory 'respuestas' failed. Should I try again? (y/n) n
+Previous HEAD position was 04a011e Añadida respuesta ejercicio 1.4
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+LudwigLove@DESKTOP-MSI MINGW64 ~/Desktop/examen-ALVAREZ-GONZALEZ/entornos1T (main)
+$ git branch main
+fatal: A branch named 'main' already exists.
+
+LudwigLove@DESKTOP-MSI MINGW64 ~/Desktop/examen-ALVAREZ-GONZALEZ/entornos1T (main)
+$ git branch
+  ALVAREZ-GONZALEZ
+* main
+
+LudwigLove@DESKTOP-MSI MINGW64 ~/Desktop/examen-ALVAREZ-GONZALEZ/entornos1T (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+LudwigLove@DESKTOP-MSI MINGW64 ~/Desktop/examen-ALVAREZ-GONZALEZ/entornos1T (main)
+$ git tag
+ALVAREZ-GONZALEZ-paso5
+
+LudwigLove@DESKTOP-MSI MINGW64 ~/Desktop/examen-ALVAREZ-GONZALEZ/entornos1T (main)
+$ git merge ALVAREZ-GONZALEZ
+Updating b79c7ba..bcf17de
+Fast-forward
+ respuestas/ejercicio1.4.txt | 25 +++++++++++++++++++++++++
+ respuestas/ejercicio1.6.txt |  5 +++++
+ 2 files changed, 30 insertions(+)
+ create mode 100644 respuestas/ejercicio1.4.txt
+ create mode 100644 respuestas/ejercicio1.6.txt
+
+LudwigLove@DESKTOP-MSI MINGW64 ~/Desktop/examen-ALVAREZ-GONZALEZ/entornos1T (main)
+$ git log --oneline
+bcf17de (HEAD -> main, ALVAREZ-GONZALEZ) Añadida respuesta ejercicio 1.6
+04a011e (tag: ALVAREZ-GONZALEZ-paso5) Añadida respuesta ejercicio 1.4
+b79c7ba (origin/main, origin/HEAD) Update .gitignore
+7b39baf Initial commit

@@ -1,0 +1,5 @@
+LudwigLove@DESKTOP-MSI MINGW64 ~/Desktop/examen-ALVAREZ-GONZALEZ/entornos1T (ALVAREZ-GONZALEZ)
+$ git log --graph --oneline --decorate --all
+* 04a011e (HEAD -> ALVAREZ-GONZALEZ) Añadida respuesta ejercicio 1.4
+* b79c7ba (origin/main, origin/HEAD, main) Update .gitignore
+* 7b39baf Initial commit
